@@ -1,0 +1,32 @@
+body {
+  font-size: 1.125em
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.diamond {
+  width: 75%;
+  background-color: #7FDBFF;
+  background-image: linear-gradient(#ff52bf, #9a52ff);
+  transform: rotate(315deg);
+  border-radius: 8%;
+  position: absolute;
+  right: -400px;
+  top: -400px
+}
+
+.diamond:after {
+  content:"";
+  display: inline-block;
+  padding-bottom: 100%;
+}
