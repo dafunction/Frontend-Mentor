@@ -1,43 +1,60 @@
 body {
   margin: 0px;
   font-size: 1.125em;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
   background-color: #F5F8FD;
+  color: #808d99;
 }
 
 h1 {
   font-family: 'Poppins', sans-serif;
   margin: auto;
+  color: black;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif;
-  margin: auto;
+  font-weight: 700;
+  margin: 50px auto 20px;
+  color: black;
 }
 
 h3 {
   font-family: 'Poppins', sans-serif;
+  color: black;
 }
 
 header {
-  margin: 40px 0px 75px;
+  margin: 40px 0px 150px;
 }
 
 .header-logo {
   position: absolute;
-  left: 10px;
-  width: 15%;
+  left: 50px;
+  width: 15vh;
+}
+
+.header-btn {
+  width: 150px;
+  height: 40px;
+  display: inline;
+  position: absolute;
+  right: 50px;
+  border-style: none;
+  border-radius: 2px;
+  box-shadow: 0px 0px 5px 0px #1a1a1a;
 }
 
 .diamond {
-  width: 80%;
+  width: 100%;
   background-color: #7FDBFF;
   background-image: linear-gradient(#ff52bf, #9a52ff);
-  transform: rotate(315deg);
+  transform: rotate(320deg);
   border-radius: 8%;
   position: absolute;
-  right: -400px;
-  top: -400px;
+  right: -575px;
+  top: -475px;
   z-index: -1;
 }
 
@@ -47,9 +64,71 @@ header {
   padding-bottom: 100%;
 }
 
+.rectangle {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 15vh;
+    transform: rotate(155deg);
+    position: absolute;
+    z-index: -2;
+    left: 25px;
+    top: 200px;
+}
+
+.rectangle:after {
+    content: "";
+    display: inline-block;
+    padding-bottom: 60%;
+}
+
+.illustration-img {
+  width: 50%;
+}
+
 .section-one {
   position: relative;
   overflow: hidden;
+  padding-bottom: 300px;
+}
+
+.section-one p {
+  width: 50%;
+  margin: auto;
+}
+
+.section-two {
+margin: 50px auto;
+}
+
+.card {
+
+}
+
+.feature-row {
+  width: 75%;
+  margin: auto;
+  text-align: left;
+}
+
+.users-img {
+  width: 50%;
+  height: 100%;
+  float: left;
+  padding: 50px;
+}
+
+.get-started {
+  width: 210px;
+  height: 40px;
+  display: inline;
+  margin: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-color: #ff52bf;
+  border-style: none;
+  /* border-color: #f3a0ec; */
+  border-radius: 2px;
+  box-shadow: 0px 0px 5px 0px #f3a0ec;
 }
 
 .footer {
