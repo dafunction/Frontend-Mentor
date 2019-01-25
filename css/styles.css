@@ -1,13 +1,18 @@
 body {
-  font-size: 1.125em
+  margin: 0px;
+  font-size: 1.125em;
+  text-align: center;
+  background-color: #F5F8FD;
 }
 
 h1 {
   font-family: 'Poppins', sans-serif;
+  margin: auto;
 }
 
 h2 {
   font-family: 'Poppins', sans-serif;
+  margin: auto;
 }
 
 h3 {
@@ -22,11 +27,21 @@ h3 {
   border-radius: 8%;
   position: absolute;
   right: -400px;
-  top: -400px
+  top: -400px;
+  z-index: -1;
 }
 
 .diamond:after {
   content:"";
   display: inline-block;
   padding-bottom: 100%;
+}
+
+.section-one {
+  position: relative;
+  overflow: hidden;
+}
+
+.footer {
+  background-color: #00252E;
 }
